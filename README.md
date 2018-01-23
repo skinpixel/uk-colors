@@ -12,9 +12,9 @@ UIkit Colors is an extension to the UIkit front-end framework. This package was 
 
 You have the following options to get UIkit Colors:
 
-- Download the [latest release](https://github.com/uikit/uikit/releases/latest) with pre-built CSS and JS.
+- Download the [latest release](https://github.com/uikit/skinpixel/uk-colors/latest) with pre-built CSS and JS.
 - Clone the repo to get all source files: `git clone git://github.com/skinpixel/uk-colors.git`
-- Install with [Npm](https://npmjs.com) to get all source files as they are available on Github: `npm install uikit`
+- Install with [Npm](https://npmjs.com) to get all source files as they are available on Github: `npm install uk-colors`
 
 ## Using UIkit Colors in your project
 
