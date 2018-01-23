@@ -1,0 +1,35 @@
+{
+  "name": "uk-colors",
+  "title": "UIkit Colors",
+  "description": "UIkit Colors is an extension to the UIkit front-end framework.",
+  "version": "1.0.0-beta.1",
+  "main": "gulpfile.js",
+  "style": "dist/css/uk-colors.css",
+  "less": "src/less/uk-colors.less",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skinpixel/uk-colors.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skinpixel/uk-colors/issues"
+  },
+  "homepage": "https://skinpixel.co.uk",
+  "keywords": [
+    "UIkit",
+    "less",
+    "css",
+    "background colors",
+    "button colors",
+    "text colors"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-less": "^3.4.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp": "^3.9.1"
+  }
+}

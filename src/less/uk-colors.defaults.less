@@ -1,0 +1,34 @@
+// Import Mixin file
+@import "uk-colors/_uk-colors-mixins.less";
+
+// Variables
+@uk-colors-prefix: uk-;
+@uk-colors-theme: "default";
+@import "themes/@{uk-colors-theme}.less";
+
+// Background Colors
+.@{uk-colors-prefix}background-default   {.bg-color(@uk-colors-background)}
+.@{uk-colors-prefix}background-muted     {.bg-color(@uk-colors-muted-background)}
+.@{uk-colors-prefix}background-primary   {.bg-color(@uk-colors-primary-background)}
+.@{uk-colors-prefix}background-secondary {.bg-color(@uk-colors-secondary-background)}
+.@{uk-colors-prefix}background-danger    {.bg-color(@uk-colors-danger-background)}
+.@{uk-colors-prefix}background-success   {.bg-color(@uk-colors-success-background)}
+.@{uk-colors-prefix}background-warning   {.bg-color(@uk-colors-warning-background)}
+
+// Button Colors
+.@{uk-colors-prefix}button-default   {.button-color(@uk-colors-background)}
+.@{uk-colors-prefix}button-muted     {.button-color(@uk-colors-muted-background)}
+.@{uk-colors-prefix}button-primary   {.button-color(@uk-colors-primary-background)}
+.@{uk-colors-prefix}button-secondary {.button-color(@uk-colors-secondary-background)}
+.@{uk-colors-prefix}button-danger    {.button-color(@uk-colors-danger-background)}
+.@{uk-colors-prefix}button-success   {.button-color(@uk-colors-success-background)}
+.@{uk-colors-prefix}button-warning   {.button-color(@uk-colors-warning-background)}
+
+// Text Colors
+.@{uk-colors-prefix}text-default   {.text-color(@uk-colors-background)}
+.@{uk-colors-prefix}text-muted     {.text-color(@uk-colors-muted-background)}
+.@{uk-colors-prefix}text-primary   {.text-color(@uk-colors-primary-background)}
+.@{uk-colors-prefix}text-secondary {.text-color(@uk-colors-secondary-background)}
+.@{uk-colors-prefix}text-danger    {.text-color(@uk-colors-danger-background)}
+.@{uk-colors-prefix}text-success   {.text-color(@uk-colors-success-background)}
+.@{uk-colors-prefix}text-warning   {.text-color(@uk-colors-warning-background)}
