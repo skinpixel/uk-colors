@@ -1,6 +1,6 @@
 {
   "name": "uk-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UIkit Colors is an extension to the UIkit front-end framework.",
   "main": "gulpfile.js",
   "scripts": {
