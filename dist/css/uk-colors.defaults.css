@@ -230,14 +230,14 @@
 .uk-button-default.uk-button-darker:focus,
 .uk-button-default .uk-button-darker:focus {
   background-color: #cccccc !important;
-  border: 1px solid #b3b3b3 !important;
+  border: 1px solid #b3b3b3;
 }
 .uk-button-default.uk-button-darker:active,
 .uk-button-default .uk-button-darker:active,
 .uk-button-default.uk-button-darker.uk-active,
 .uk-button-default .uk-button-darker.uk-active {
   background-color: #b3b3b3 !important;
-  border: 1px solid #999999 !important;
+  border: 1px solid #999999;
 }
 .uk-button-default.uk-button-lighter,
 .uk-button-default .uk-button-lighter {
@@ -293,14 +293,14 @@
 .uk-button-muted.uk-button-darker:focus,
 .uk-button-muted .uk-button-darker:focus {
   background-color: #acacac !important;
-  border: 1px solid #939393 !important;
+  border: 1px solid #939393;
 }
 .uk-button-muted.uk-button-darker:active,
 .uk-button-muted .uk-button-darker:active,
 .uk-button-muted.uk-button-darker.uk-active,
 .uk-button-muted .uk-button-darker.uk-active {
   background-color: #939393 !important;
-  border: 1px solid #797979 !important;
+  border: 1px solid #797979;
 }
 .uk-button-muted.uk-button-lighter,
 .uk-button-muted .uk-button-lighter {
@@ -357,14 +357,14 @@
 .uk-button-primary.uk-button-darker:focus,
 .uk-button-primary .uk-button-darker:focus {
   background-color: #2e0618 !important;
-  border: 1px solid #010000 !important;
+  border: 1px solid #010000;
 }
 .uk-button-primary.uk-button-darker:active,
 .uk-button-primary .uk-button-darker:active,
 .uk-button-primary.uk-button-darker.uk-active,
 .uk-button-primary .uk-button-darker.uk-active {
   background-color: #010000 !important;
-  border: 1px solid #000000 !important;
+  border: 1px solid #000000;
 }
 .uk-button-primary.uk-button-lighter,
 .uk-button-primary .uk-button-lighter {
@@ -421,14 +421,14 @@
 .uk-button-secondary.uk-button-darker:focus,
 .uk-button-secondary .uk-button-darker:focus {
   background-color: #780b2f !important;
-  border: 1px solid #49071c !important;
+  border: 1px solid #49071c;
 }
 .uk-button-secondary.uk-button-darker:active,
 .uk-button-secondary .uk-button-darker:active,
 .uk-button-secondary.uk-button-darker.uk-active,
 .uk-button-secondary .uk-button-darker.uk-active {
   background-color: #49071c !important;
-  border: 1px solid #1b020a !important;
+  border: 1px solid #1b020a;
 }
 .uk-button-secondary.uk-button-lighter,
 .uk-button-secondary .uk-button-lighter {
@@ -485,14 +485,14 @@
 .uk-button-danger.uk-button-darker:focus,
 .uk-button-danger .uk-button-darker:focus {
   background-color: #a9162c !important;
-  border: 1px solid #7c1020 !important;
+  border: 1px solid #7c1020;
 }
 .uk-button-danger.uk-button-darker:active,
 .uk-button-danger .uk-button-darker:active,
 .uk-button-danger.uk-button-darker.uk-active,
 .uk-button-danger .uk-button-darker.uk-active {
   background-color: #7c1020 !important;
-  border: 1px solid #4f0a15 !important;
+  border: 1px solid #4f0a15;
 }
 .uk-button-danger.uk-button-lighter,
 .uk-button-danger .uk-button-lighter {
@@ -549,14 +549,14 @@
 .uk-button-success.uk-button-darker:focus,
 .uk-button-success .uk-button-darker:focus {
   background-color: #0a6151 !important;
-  border: 1px solid #05332a !important;
+  border: 1px solid #05332a;
 }
 .uk-button-success.uk-button-darker:active,
 .uk-button-success .uk-button-darker:active,
 .uk-button-success.uk-button-darker.uk-active,
 .uk-button-success .uk-button-darker.uk-active {
   background-color: #05332a !important;
-  border: 1px solid #000504 !important;
+  border: 1px solid #000504;
 }
 .uk-button-success.uk-button-lighter,
 .uk-button-success .uk-button-lighter {
@@ -613,14 +613,14 @@
 .uk-button-warning.uk-button-darker:focus,
 .uk-button-warning .uk-button-darker:focus {
   background-color: #b28115 !important;
-  border: 1px solid #846010 !important;
+  border: 1px solid #846010;
 }
 .uk-button-warning.uk-button-darker:active,
 .uk-button-warning .uk-button-darker:active,
 .uk-button-warning.uk-button-darker.uk-active,
 .uk-button-warning .uk-button-darker.uk-active {
   background-color: #846010 !important;
-  border: 1px solid #573f0a !important;
+  border: 1px solid #573f0a;
 }
 .uk-button-warning.uk-button-lighter,
 .uk-button-warning .uk-button-lighter {
