@@ -1,21 +1,21 @@
 // Background Color Mixin
-.bg-color (@bg) when (lightness(@bg) > 50%)  {color: rgba(0, 0, 0, 0.8);}
-.bg-color (@bg) when (lightness(@bg) <= 50%)   {color: rgba(255, 255, 255, 0.8);}
+.bg-color (@bg) when (lightness(@bg) > 50%)  {color: @uk-colors-color;}
+.bg-color (@bg) when (lightness(@bg) <= 50%)   {color: @uk-colors-inverse-color;}
 
 .bg-color (@bg) {
   background-color: @bg;
   &.@{uk-colors-prefix}background-darker, & .@{uk-colors-prefix}background-darker {background-color: darken(@bg, 10%);}
   &.@{uk-colors-prefix}background-lighter, & .@{uk-colors-prefix}background-lighter {background-color: lighten(@bg, 10%);}
-  .@{uk-colors-prefix}light &, &.@{uk-colors-prefix}light, & .@{uk-colors-prefix}light {color: rgba(255, 255, 255, 0.8);}
-  .@{uk-colors-prefix}dark &, &.@{uk-colors-prefix}dark, & .@{uk-colors-prefix}dark {color: rgba(0, 0, 0, 0.8);}
+  .@{uk-colors-prefix}light &, &.@{uk-colors-prefix}light, & .@{uk-colors-prefix}light {color: @uk-colors-inverse-color;}
+  .@{uk-colors-prefix}dark &, &.@{uk-colors-prefix}dark, & .@{uk-colors-prefix}dark {color: @uk-colors-color;}
   &.@{uk-colors-prefix}background-fade-10 {background-color: fade(@bg, 90%);}
   &.@{uk-colors-prefix}background-fade-20 {background-color: fade(@bg, 80%);}
   &.@{uk-colors-prefix}background-fade-30 {background-color: fade(@bg, 70%);}
 }
 
 // Button Color Mixin
-.button-color (@btn-color) when (lightness(@btn-color) > 30%)  {color: rgba(0, 0, 0, 0.8);}
-.button-color (@btn-color) when (lightness(@btn-color) <= 70%)   {color: rgba(255, 255, 255, 0.8);}
+.button-color (@btn-color) when (lightness(@btn-color) > 30%)  {color: @uk-colors-color;}
+.button-color (@btn-color) when (lightness(@btn-color) <= 70%)   {color: @uk-colors-inverse-color;}
 
 .button-color (@btn-color) {
   background-color: @btn-color;
@@ -36,8 +36,8 @@
   &:hover, &:focus {background-color: darken(@btn-color, 10%); border: 1px solid darken(@btn-color, 20%);}
   &:active, &.@{uk-colors-prefix}active {background-color: darken(@btn-color, 20%); border: 1px solid darken(@btn-color, 30%);}
 
-  .@{uk-colors-prefix}light &, &.@{uk-colors-prefix}light, & .@{uk-colors-prefix}light {color: rgba(255, 255, 255, 0.8);}
-  .@{uk-colors-prefix}dark &, &.@{uk-colors-prefix}dark, & .@{uk-colors-prefix}dark {color: rgba(0, 0, 0, 0.8);}
+  .@{uk-colors-prefix}light &, &.@{uk-colors-prefix}light, & .@{uk-colors-prefix}light {color: @uk-colors-inverse-color;}
+  .@{uk-colors-prefix}dark &, &.@{uk-colors-prefix}dark, & .@{uk-colors-prefix}dark {color: @uk-colors-color;}
 }
 
 // Text Color Mixin
